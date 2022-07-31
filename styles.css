@@ -1,0 +1,77 @@
+body{
+  background: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  font-family: 'Montserrat', sans-serif;
+}
+.card-top{
+  width: 375px;
+  margin: 5rem auto 3rem;
+  padding: 1%;
+}
+.card{
+  background: hsl(216, 50%, 16%);
+  border-radius: 4%;
+  padding: 2rem;
+}
+
+.eth-image{
+  width: 100%;
+  border-radius: 3%;
+}
+.product-name, .creator{
+  color: hsl(0, 0%, 100%);
+}
+.product-name{
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.product-desc{
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 0rem;
+  line-height: 1.9;
+}
+.card-details{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.price-box, .time-box{
+  display: flex;
+}
+.price-icon, .time-icon{
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.price, .time{
+  font-size: 1.3rem;
+  margin: auto auto auto 0.5rem;
+}
+.price{
+  color: hsl(178, 100%, 50%);
+}
+hr{
+  border-color: hsl(215, 51%, 70%);
+  border-width: 1px 0 0;
+}
+.footer{
+  display: flex;
+  margin: 2rem 0 0.5rem;
+  width: 100%;
+}
+.avatar{
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.6rem;
+}
+.footer p{
+  diplay: flex;
+  font-size: 1.25rem;
+  margin: auto 0;
+}
+.attribution{
+  margin: auto;
+  font-size: 1rem;
+  text-align: center;
+}
